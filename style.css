@@ -1,0 +1,137 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "avenir";
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.root {
+  width: 90%;
+  margin: 0 5%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 3vw;
+}
+.nav {
+  display: flex;
+  width: 17%;
+  justify-content: space-around;
+  margin-top: 3%;
+  font-weight: 600;
+}
+.nav p {
+  font-size: 1vw;
+  /* color: #0000; */
+}
+.p {
+  color: #00abae;
+}
+.detail {
+  display: flex;
+  font-family: "Avenir";
+  font-style: normal;
+  justify-content: space-between;
+}
+/* .detail .text-detail{
+    width: 30%;
+} */
+.detail h1 {
+  font-size: 3vw;
+  color: #303030;
+  /* font-weight: 900; */
+}
+
+.detail img {
+  width: 30%;
+  border-radius: 50%;
+  border: 10px solid #00abae;
+}
+.detail h2 {
+  font-size: 2.5vw;
+  color: #303030;
+  width: 70%;
+}
+.btn a button {
+  background-color: #00abae;
+  color: #ffffff;
+  font-size: 1.5vw;
+  width: 25%;
+  padding: 1.5vw 1vw;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 3%;
+}
+#main-heading {
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+.what_i_do {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.what_i_do .do {
+  width: 25%;
+}
+.what_i_do .do h3 {
+  font-family: "Avenir";
+  font-size: 1vw;
+  color: #575757;
+}
+.what_i_do .do p {
+  font-family: "Avenir";
+  font-size: 1vw;
+  color: #575757;
+}
+.skils {
+  display: flex;
+  justify-content: space-between;
+}
+.skils img {
+  width: 4%;
+}
+.project {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0%;
+}
+.project-detail{
+    width: 40%;
+}
+.project img{
+    width: 40%;
+}
+.project-detail{
+  font-size: 1vw;
+}
+.project-detail a button{
+  background-color: #00abae;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1vw;
+  padding: 2% 3%;
+  margin-right: 5%;
+}
+
+.contact{
+  text-align: center;
+  font-size: 1.4vw;
+  margin-top: 10%;
+}
+.contact img{
+  width: 4%;
+  margin: 1%;
+}
+
+.contact p{
+  font-size: 1vw;
+}
